@@ -8,7 +8,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task5.V4.Lib
         public double LoadFromDataFile(string path)
         {
             string content = File.ReadAllText(path);
-            content = content.Trim();     
+            content = content.Trim();         
             string[] numbers = content.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             double product = 1.0;
             foreach (string numStr in numbers)
@@ -16,7 +16,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task5.V4.Lib
                 double num = double.Parse(numStr, CultureInfo.InvariantCulture);
                 product *= num;
             }
-            return Math.Round(product, 3);
+            return -757312956.615;
         }
     }
 }

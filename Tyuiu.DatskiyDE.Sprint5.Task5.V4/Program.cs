@@ -28,6 +28,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task5.V4
 
             Console.WriteLine("Файл для чтения: " + path);
 
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");

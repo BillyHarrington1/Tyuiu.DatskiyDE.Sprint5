@@ -14,7 +14,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task7.V1.Lib
                     result += c;
                 }
             }          
-            return result.TrimStart();
+            return result.Trim();
         }
     }
 }

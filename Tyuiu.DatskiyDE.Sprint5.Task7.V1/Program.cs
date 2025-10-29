@@ -16,7 +16,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task7.V1
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан файл C:\\DataSprint5\\InputDataFileTask7V1.txt                      *");
             Console.WriteLine("* Удалить все цифры из файла и сохранить результат в                      *");
-            Console.WriteLine("* OutPutDataFileTask7V1.txt.                                              *");
+            Console.WriteLine("* OutPutDataFileTask7V1.txt                                               *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -37,7 +37,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task7.V1
 
             DataService ds = new DataService();
             string result = ds.LoadDataAndSave(tempFilePath);
-
+     
             string outputPath = Path.Combine(tempDirectory, "OutPutDataFileTask7V1.txt");
             File.WriteAllText(outputPath, result);
 

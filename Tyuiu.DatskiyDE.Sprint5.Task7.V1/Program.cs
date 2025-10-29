@@ -43,8 +43,7 @@ namespace Tyuiu.DatskiyDE.Sprint5.Task7.V1
 
             Console.WriteLine($"Результат сохранён в: {outputPath}");
             Console.WriteLine("Содержимое результата:");
-            Console.WriteLine(result);
-
+            Console.WriteLine(result.TrimStart());        
             Console.ReadKey();
         }
     }
